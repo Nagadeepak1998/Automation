@@ -1,5 +1,5 @@
 resource "aws_security_group" "bastion" {
-  name        = "bastion-demo1"
+  name        = "bastion-demo11"
   description = "Allow admin with ssh"
   vpc_id      = "vpc-00353b4ea37a1fc38"
 
@@ -20,7 +20,7 @@ resource "aws_security_group" "bastion" {
   }
 
   tags = {
-    Name      = "bastion-demo1"
+    Name      = "bastion-demo11"
     terraform = "true"
   }
 
