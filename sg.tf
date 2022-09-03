@@ -29,7 +29,7 @@ resource "aws_security_group" "bastion" {
 resource "aws_security_group" "apache" {
   name        = "apache-demo"
   description = "Allow enduser"
-  vpc_id      = "vpc-061f5230730ad09e5"
+  vpc_id      = "vpc-00353b4ea37a1fc38"
 
   ingress {
     description = "connecting enduser"
