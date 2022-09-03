@@ -1,7 +1,7 @@
 resource "aws_security_group" "bastion" {
   name        = "bastion-demo11"
   description = "Allow admin with ssh"
-  vpc_id      = "vpc-00353b4ea37a1fc38"
+  vpc_id      = "vpc-07c6deb7b2da13b5a"
 
   ingress {
     description = "connecting admin with ssh"
@@ -29,7 +29,7 @@ resource "aws_security_group" "bastion" {
 resource "aws_security_group" "apache" {
   name        = "apache-demo"
   description = "Allow enduser"
-  vpc_id      = "vpc-00353b4ea37a1fc38"
+  vpc_id      = "vpc-07c6deb7b2da13b5a"
 
   ingress {
     description = "connecting enduser"
