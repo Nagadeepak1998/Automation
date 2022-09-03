@@ -1,7 +1,7 @@
 resource "aws_security_group" "bastion" {
   name        = "bastion-demo1"
   description = "Allow admin with ssh"
-  vpc_id      = "vpc-07c6deb7b2da13b5a"
+  vpc_id      = "vpc-00353b4ea37a1fc38"
 
   ingress {
     description = "connecting admin with ssh"
