@@ -1,5 +1,5 @@
-resource "aws_security_group" "bastion" {
-  name        = "bastion-demo11deepak"
+resource "aws_security_group" "bachine" {
+  name        = "bastion deepu"
   description = "Allow admin with ssh"
   vpc_id      = "vpc-07c6deb7b2da13b5a"
 
@@ -20,14 +20,14 @@ resource "aws_security_group" "bastion" {
   }
 
   tags = {
-    Name      = "bastion-demo11deepak"
+    Name      = "bastion deepu"
     terraform = "true"
   }
 
 }
 
 resource "aws_security_group" "apache" {
-  name        = "apache-demo"
+  name        = "apache-deepu"
   description = "Allow enduser"
   vpc_id      = "vpc-07c6deb7b2da13b5a"
 
@@ -59,7 +59,7 @@ resource "aws_security_group" "apache" {
   }
 
   tags = {
-    Name      = "apache-demo"
+    Name      = "apache-deepu"
     terraform = "true"
   }
 
