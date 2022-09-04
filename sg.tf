@@ -1,5 +1,9 @@
 resource "aws_security_group" "bastion" {
+<<<<<<< HEAD
   name        = "bastion-demo13deepak"
+=======
+  name        = "bastion-demo12deepak"
+>>>>>>> 1e26859db1cfdda19b06034060b949b7b4009e28
   description = "Allow admin with ssh"
   vpc_id      = "vpc-07c6deb7b2da13b5a"
 
@@ -20,7 +24,11 @@ resource "aws_security_group" "bastion" {
   }
 
   tags = {
+<<<<<<< HEAD
     Name      = "bastion-demo13deepak"
+=======
+    Name      = "bastion-demo12deepak"
+>>>>>>> 1e26859db1cfdda19b06034060b949b7b4009e28
     terraform = "true"
   }
 
